@@ -47,8 +47,10 @@ h1 {
   max-width: 33rem;
 }
 
-.offsite-container,
-.site-container {
+/*push the screen to the right
+  add class to body */
+.offsite-is-open .offsite-container,
+.offsite-is-open .site-container {
   transform: translateX(14rem);
 }
 

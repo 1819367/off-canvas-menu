@@ -1,8 +1,8 @@
-// Start writing JavaScript here!
 // Select the button
 const button = document.querySelector('button')
+//Select the body
+const body = document.querySelector('body')
 
-// add the event listener
-button.addEventListener('click', event => {
-  console.log('push the screen!')
+button.addEventListener('click', e => {
+  body.classList.toggle('offsite-is-open')
 })
